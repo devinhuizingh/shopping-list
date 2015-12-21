@@ -28,6 +28,15 @@ p {
 	padding-left: 2px;
 }
 
+li {
+	margin-left: -10px;
+	border: 2px solid black;
+	max-width: 75%;
+	padding-left: 2px;
+	list-style: none;
+	padding-bottom: 15px;
+
+
 .in-cart >p {
 	text-decoration: line-through;
 }

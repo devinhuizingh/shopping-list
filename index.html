@@ -4,11 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/jquery-2.1.4.min.js"></script>
+  	<script src="js/script.js"></script>
 </head>
 <body>
+
 	<div class="add-item">
 		<div class="header">
-			<h1> Add an Item </h1>
+			<h1> <form>
+					Add Item: <br>
+					<input type="text" name="item">
+					<button id='button'>Add Item</button>
+
+				</form>
+			 </h1>
 		</div>
 	</div>
 
@@ -17,6 +26,11 @@
 			<h1> Still to Buy</h1>
 			
 		</div>
+		<ul>
+			<li> Milk</li>
+			<li>Eggs</li>
+			<li>yogurt</li>
+		</ul>
 		<p>Milk</p>
 		<p>Eggs</p>
 		<p>yogurt</p>
