@@ -1,5 +1,7 @@
 body {
     background-color: LightGray;
+    min-width: 300px
+   ;
 }
 div {
     border: 3px solid black;
@@ -19,6 +21,7 @@ div {
 
 h1 {
 	padding-left: 5px;
+	
 }
 
 p {
@@ -35,9 +38,25 @@ li {
 	padding-left: 2px;
 	list-style: none;
 	padding-bottom: 15px;
-
-
-.in-cart >p {
-	text-decoration: line-through;
 }
+
+.in-cart >ul {
+	text-decoration: line-through;
+}   
+
+form >button {
+	background-color: yellow
+}
+
+li >.checkbutton {
+	background-color: green;
+	float: right;
+
+}
+li >.deletebutton{
+	background-color: red;
+	float: right;
+
+}
+
 
