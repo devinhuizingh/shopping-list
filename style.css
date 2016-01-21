@@ -1,10 +1,13 @@
 body {
-    background-color: LightGray;
-    min-width: 300px
+    background-image: url("http://www.ci.garden-grove.ca.us/city-files/u28/empty_shopping_cart.jpg");
+    min-width: 300px;
+    margin: auto;
+    width: 60%;
    ;
 }
 div {
     border: 3px solid black;
+    border-radius: 10px;
     max-width: 500px;
     margin-left: 50px;
 
@@ -17,6 +20,8 @@ div {
 
 .header {
 	margin-left: 0px;
+	text-align: center;
+	background-color: white;
 }
 
 h1 {
@@ -34,28 +39,36 @@ p {
 li {
 	margin-left: -10px;
 	border: 2px solid black;
+	border-radius: 5px;
 	max-width: 75%;
 	padding-left: 2px;
 	list-style: none;
 	padding-bottom: 15px;
+	background-color: white;
 }
 
+.in-cart >li {
+	background-color: white;
+}   
 .in-cart >ul {
 	text-decoration: line-through;
 }   
 
 form >button {
-	background-color: yellow
+	background-color: yellow;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 li >.checkbutton {
 	background-color: green;
 	float: right;
+	box-shadow: 2px 2px 2px #888888;
 
 }
 li >.deletebutton{
 	background-color: red;
 	float: right;
+	box-shadow: 2px 2px 2px #888888;
 
 }
 
